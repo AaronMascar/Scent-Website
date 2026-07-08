@@ -1,0 +1,317 @@
+/*control the layer */
+
+
+/*control wrapper*/
+#aaron{
+	width:100%;/*width of the main area*/
+	height: 100%;/*height of the main area*/
+	margin:0 auto;/*adds a margin */
+	padding:0;/*space between of the main area*/
+}
+
+/*controls the pop-up box for the first product*/
+#popupBoxOnePosition{
+	top: 0%;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the second product*/
+#popupBoxTwoPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxThreePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxFourPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*Boundaries of the pop-up box*/
+.popupBoxWrapper{
+	width: 100%; /*width of the wrapper*/
+	height: 100%; /*height of the wrapper*/
+	margin-top:10%; /*top margin of the wrapper*/
+	text-align: center;/*aligns text to center of the wrapper*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*content withing the pop-up box*/
+.popupBoxContent{
+	width: 50%;
+	background-color: #FFF; /*background color of the content*/
+	padding: 5%;/*side gaps of the content within the pop-up box*/
+	margin-top: 10%;/*top margin gap of the content within the pop-up box*/
+	margin-left: 20%;/*top margin gap of the content within the pop-up box*/
+	border-radius: 4px;/*corners of the pop-up box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*SCENT logo left side*/
+.img1{
+	float:left;/*position of the image1*/
+	margin-left: 120px;/*left margin of the image1*/
+	margin-top: 40px;/*top margin of the image1*/
+	border-radius: 4px;/*side gaps within the image1*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image1*/
+.img1:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image1*/
+}
+
+/*SCENT logo right side*/
+.img2{
+	float:right;/*position of the image2*/
+	margin-right: 10px;/*left margin of the image2*/
+	margin-top: 10px;/*top margin of the image2*/
+	border-radius: 4px;/*side gaps within the image2*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image2*/
+.img2:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image2*/
+}
+
+/*SCENT logo right side corner*/
+.img3{
+	float:right;/*position of the image3*/
+	margin-right: 50px;/*left margin of the image3*/
+	margin-top: 10px;/*top margin of the image3*/
+	border-radius: 4px;/*side gaps within the image3*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image3*/
+.img3:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image3*/
+}
+
+/*control the heading*/
+#header{
+	width:80%;/*width of the header*/   
+	margin-right:10%;/*right margin of the info box*/
+	margin-left: 10%;/*width of the info box*/    
+	float:left;/*position of the header*/
+	border:0px solid black;/*border of the header*/ 
+	color: #000;/*color of the header text*/
+	font-family: Century Gothic;/*font of the header*/
+	background-color: orange;/*background color of the header*/
+	text-align:center;/*alignment of the text of the header*/
+	border-radius: 4px;/*corners of the header box*/
+}
+
+/*control the main areas*/
+main{
+	width:100%;/*width of the header*/
+	float:left;/*position of the main area*/
+	border:0px solid black;/*border of the main area*/
+	font-family: Century Gothic;/*font of the main area*/
+}
+
+/*banner for contact us*/
+.banner{
+	float: left;/*moves to the left of the contain*/
+	border: 0px solid black;/*border of the contain*/
+	border-radius: 4px;/*corners of the info box*/
+	cursor: pointer;/*changes cursor to pointer*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	display: block;/*block - one beneath / in-line - side by side*/
+	margin-left:18%;
+	margin-top:1%;
+	margin-bottom:5%;
+	margin-right:1%;
+}
+
+/*banner responsive image*/
+.banner-img{
+	width:100%;
+	height:auto;
+}
+
+/*when the mouse hover*/
+.banner:hover{
+	box-shadow: 0 0 0 3px;
+}
+
+/* contains all sub-classes*/
+.contain{
+		margin-top: 5%;/*top margin of the contain*/
+		margin-right:2%;/*right margin of the contain*/
+		margin-left:12%;/*right margin of the contain*/
+		float: left;/*moves to the left of the contain*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the contain*/
+		color: #000;/*color of the container's text*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/* contains all sub-classes*/
+.container{
+	width:80%;/*width of the container*/
+	margin-right:2%;/*right margin of the container*/
+	margin-left: 14%;/*left margin of the container*/
+	margin-bottom: 10%;/*bottom margin of the container*/
+	float: left;/*moves to the left of the container*/
+	display: block;/*block - one beneath / in-line - side by side*/
+	border: 0px solid black;/*border of the container*/
+	border-radius: 4px;/*corners of the container*/
+	background-color: #FDDBAB;/*background color of the container*/
+	padding: 3%;/*side gaps within the container*/
+}
+
+/*location of SCENT on Google maps*/
+.googlemap{
+	width:100%;/*width of the Google map*/
+	margin-bottom: 10%;/*bottom margin of the Google map*/
+	float: left;/*moves to the left of the Google map*/
+	display: in-line;/*block - one beneath / in-line - side by side*/
+	border: 2px solid black;/*border of the Google map*/
+	border-radius: 4px;/*side gaps within the Google map*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.googlemap:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/*text box*/
+input[type="text"], input[type="email"], textarea{
+	width: 90%;/*width of the text box*/
+	padding: 12px;/*side gaps within the text box*/
+	border: 1px solid #fff;/*border of the text box*/
+	border-radius: 4px solid #fff;/*corners of the text box*/
+	margin-top: 6px;/*top margin of the text box*/
+	margin-bottom: 16px;/*bottom margin of the text box*/
+	background-color: #fff;/*background color of the text box*/
+	box-sizing: border-box;/*size of the text box*/
+	color: #000;/*color of the text box text*/
+	display: block;/*block - one beneath / in-line - side by side*/
+	border-radius: 4px;/*side gaps within the Google map */
+}
+
+/*on-click text box "name box"*/
+input[type="text"]:focus, input[type="email"]:focus {
+	background-color: #e5e6e8;/*background color of the on-click text box*/
+	box-shadow: 0 0 0 2px;/*box shadow of the on-click text box*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+/*on-click text box "Subject box"*/
+textarea:focus{
+	background-color: #e5e6e8;/*background color of the on-click text box*/
+	box-shadow: 0 0 0 2px;/*box shadow of the on-click text box*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+/*text name*/
+label{
+	color: #000;/*color of the text*/
+}
+
+/*submit button*/
+input[type="submit"]{
+	background-color: silver;/*background color of the submit button*/
+	color: #000;/*color of the text*/
+	padding: 12px 48px;/*side gaps within the submit button*/
+	border-radius: 4px solid #fff;/*side gaps within the submit button*/
+	border: 2px solid #fff;/*border of the submit button*/
+	cursor: pointer;/*changes cursor to pointer*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+/*when the mouse hover over submit button*/
+input[type="submit"]:hover{
+	background-color: #fff;/*background color of the submit button*/
+	box-shadow: 0 0 0 2px;/*box shadow of the submit button*/
+
+}
+
+/*controls the info box*/
+.Info{
+	width:90%;/*width of the info box*/       
+	float:left;/*position of the info box*/
+	color: #000;/*color of the info box text*/
+	font-family: Century Gothic;/*font of the info box*/
+	background-color: orange;/*background color of the info box*/
+	text-align:center;/*alignment of the text of the info box*/
+	margin-right:0%;/*right margin of the info box*/
+	margin-left: 5%;/*width of the info box*/
+	margin-bottom: 10%;/*width of the info box*/
+	border-radius: 4px;/*corners of the info box*/
+}
+
+/*social media styles*/
+.socialmedia{
+	float:left;/*position of the social-media box*/
+	margin-left: 10%;/*left margin of the social-media box*/
+	margin-right: 5%;/*right margin of the social-media box*/
+	margin-bottom: 5%;/*left margin of the social-media box*/
+	float: left;/*moves to the left of the social-media box*/
+	display: in-line;/*block - one beneath / in-line - side by side*/
+	border-radius: 4px;/*side gaps within the social-media box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over submit button*/
+.socialmedia:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the social-media box*/
+	margin-right:10%;
+	margin-left:9%;
+	
+}	
+
+/*control the bottom area*/
+footer{
+	width:80%;/*width of the footer*/   
+	margin-right:10%;/*right margin of the footer*/
+	margin-left: 10%;/*width of the footer*/  
+	float:left;/*moves to the left of the footer*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	border:0px solid black;/*border of the footer*/
+	color: #000;/*color of the footer box text*/
+	background-color: orange;/*background color of the footer box*/
+	text-align:center;/*aligns text to center of the footer box*/
+	font-family: Century Gothic;/*font of the footer area*/
+	border-radius: 4px;/*corners of the footer box*/
+}

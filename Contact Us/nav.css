@@ -1,0 +1,176 @@
+/*control main navigation of SCENT Perfume Wholesale*/
+
+/*control the main areas*/
+#main_u1{
+	margin:0 auto;/*margin of the main area*/
+	margin-left:10%;/*margin of the main area*/
+	margin-right:6.6%;/*margin of the main area*/
+	padding:0;/*space between of the main area*/
+}
+
+/*controls the nav box*/
+.home_li{
+	width:15%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	background: #000;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.home{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: orange;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.home:hover{
+	background: #fff;/*background color of the home nav box while hovering*/
+	color: #000;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.men_li{
+	width:15%;/*width of the home nav box*/
+	margin-left:1%; /*left margin of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	background: #000;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.men{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: orange;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.men:hover{
+	background: #fff;/*background color of the home nav box while hovering*/
+	color: #000;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.women_li{
+	width:15%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:1%;/*left margin of the home nav box*/
+	background: #000;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.women{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: orange;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.women:hover{
+	background: #fff;/*background color of the home nav box while hovering*/
+	color: #000;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.gifts_li{
+	width:15%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:1%;/*left margin of the home nav box*/
+	background: #000;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.gifts{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: orange;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.gifts:hover{
+	background: #fff;/*background color of the home nav box while hovering*/
+	color: #000;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.sale_li{
+	width:15%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:1%;/*left margin of the home nav box*/
+	background: #000;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.sale{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: orange;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.sale:hover{
+	background: #fff;/*background color of the home nav box while hovering*/
+	color: #000;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.contact_li{
+	width:15%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:1%;/*left margin of the home nav box*/
+	background: #fff;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.contact{
+	font-size:auto;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #000;/*color of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.contact:hover{
+	background: #000;/*background color of the home nav box while hovering*/
+	color: #fff;/*text color of the home nav box while hovering*/
+}

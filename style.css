@@ -1,0 +1,605 @@
+/*control the layer */
+
+
+/*control wrapper*/
+#aaron{
+	width:100%;/*width of the main area*/
+	height: 100%;/*height of the main area*/
+	margin:0 auto;/*adds a margin */
+	padding:0;/*space between of the main area*/
+}
+
+/*SCENT logo left side*/
+.img1{
+	float:left;/*position of the image1*/
+	margin-left: 120px;/*left margin of the image1*/
+	margin-top: 40px;/*top margin of the image1*/
+	border-radius: 4px;/*side gaps within the image1*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image1*/
+.img1:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image1*/
+}
+
+/*SCENT logo right side*/
+.img2{
+	float:right;/*position of the image2*/
+	margin-right: 10px;/*right margin of the image2*/
+	margin-top: 10px;/*top margin of the image2*/
+	border-radius: 4px;/*side gaps within the image2*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image2*/
+.img2:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image2*/
+}
+
+
+/*SCENT logo right side corner*/
+.img3{
+	float:right;/*position of the image3*/
+	margin-right: 50px;/*right margin of the image3*/
+	margin-top: 10px;/*top margin of the image3*/
+	border-radius: 4px;/*side gaps within the image3*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image3*/
+.img3:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image3*/
+}
+
+/*control the heading*/
+#header{
+	width:80%;/*width of the header*/   
+	margin-right:10%;/*right margin of the info box*/
+	margin-left: 10%;/*width of the info box*/    
+	float:left;/*position of the header*/
+	border:0px solid black;/*border of the header*/ 
+	color: #000;/*color of the header text*/
+	font-family: Century Gothic;/*font of the header*/
+	background-color: orange;/*background color of the header*/
+	text-align:center;/*alignment of the text of the header*/
+	border-radius: 4px;/*corners of the header box*/
+}
+
+/*controls the info box*/
+.Info{
+	width:80%;/*width of the info box*/       
+	float:left;/*position of the info box*/
+	color: #000;/*color of the info box text*/
+	font-family: Century Gothic;/*font of the info box*/
+	background-color: orange;/*background color of the info box*/
+	text-align:center;/*alignment of the text of the info box*/
+	margin-right:10%;/*right margin of the info box*/
+	margin-left: 10%;/*width of the info box*/
+	border-radius: 4px;/*corners of the info box*/
+}
+
+/*controls the pop-up box for the first product*/
+#popupBoxOnePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the second product*/
+#popupBoxTwoPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the third product*/
+#popupBoxThreePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the fourth product*/
+#popupBoxFourPosition{ 
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the fifth product*/
+#popupBoxFivePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the sixth product*/
+#popupBoxSixPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the seventh product*/
+#popupBoxSevenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the eightth product*/
+#popupBoxEightPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*controls the pop-up box for the ninth product*/
+#popupBoxNinePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxElevenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTwelvePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxThirteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxFourteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxFifteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxSixteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxSeventeenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxEighteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxNineteenPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTwentyPosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTwentyOnePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 100%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*Boundaries of the pop-up box*/
+.popupBoxWrapper{
+	width: 100%; /*width of the wrapper*/	
+	height: 100%; /*height of the wrapper*/
+	margin-top:10%; /*top margin of the wrapper*/
+	text-align: center;/*aligns text to center of the wrapper*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*content withing the pop-up box*/
+.popupBoxContent{
+	width: 50%;
+	background-color: #FFF; /*background color of the content*/
+	padding: 5%;/*side gaps of the content within the pop-up box*/
+	margin-top: 5%;/*top margin gap of the content within the pop-up box*/
+	margin-left: 21%;/*top margin gap of the content within the pop-up box*/
+	border-radius: 4px;/*corners of the pop-up box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*control the main areas*/
+main{
+	width:100%;/*width of the main area*/
+	float:left;/*position of the main area*/
+	border:0px solid black;/*border of the main area*/
+	font-family: Century Gothic;/*font of the main area*/
+}
+
+/* contains all sub-classes*/
+.contain{
+		width:80%;/*width of the container*/
+		margin-right:10%;/*right margin of the container*/
+		margin-left: 20%;/*left margin of the container*/
+		margin-top: 5%;/*top margin of the container*/
+		margin-bottom: 5%;/*bottom margin of the container*/
+		float: left;/*moves to the left of the container*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the container*/
+		color: #000;/*color of the container's text*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+		
+/* contains first product box*/
+.prod_box{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains first product picture*/
+.prod_pic{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains first product price*/
+.prod_price{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains second product box*/
+.prod_box2{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains second product picture*/
+.prod_pic2{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic2:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains second product price*/
+.prod_price2{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains third product box*/
+.prod_box3{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains third product picture*/
+.prod_pic3{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic3:hover{
+	box-shadow: 0 0 0 2px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains third product price*/
+.prod_price3{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains fourth product box*/
+.prod_box4{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains fourth product picture*/
+.prod_pic4{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic4:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains fourth product price*/
+.prod_price4{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains fifth product box*/
+.prod_box5{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains fifth product picture*/
+.prod_pic5{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic5:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains fifth product price*/
+.prod_price5{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains sixth product box*/
+.prod_box6{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains sixth product picture*/
+.prod_pic6{
+		width:100%;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic6:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains sixth product price*/
+.prod_price6{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #000;/*color of the prod price box text*/
+		background-color: orange;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}		
+
+/*control the bottom area*/
+footer{
+	width:80%;/*width of the footer*/   
+	margin-right:10%;/*right margin of the footer*/
+	margin-left: 10%;/*width of the footer*/  
+	float:left;/*moves to the left of the footer*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	border:0px solid black;/*border of the footer*/
+	color: #000;/*color of the footer box text*/
+	background-color: orange;/*background color of the footer box*/
+	text-align:center;/*aligns text to center of the footer box*/
+	font-family: Century Gothic;/*font of the footer area*/
+	border-radius: 4px;/*corners of the footer box*/
+}

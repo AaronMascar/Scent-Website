@@ -59,7 +59,7 @@
 .popupBoxWrapper{
 	width: 100%; /*width of the wrapper*/
 	height: 100%; /*height of the wrapper*/
-	margin-top:10%; /*top margin of the wrapper*/
+	margin:auto; /*top margin of the wrapper*/
 	text-align: center;/*aligns text to center of the wrapper*/
 	transition: 0.6s ease;/*smooth fade effect*/
 }
@@ -68,9 +68,9 @@
 .popupBoxContent{
 	width: 50%;
 	background-color: #FFF; /*background color of the content*/
-	padding: 5%;/*side gaps of the content within the pop-up box*/
-	margin-top: 10%;/*top margin gap of the content within the pop-up box*/
-	margin-left: 20%;/*top margin gap of the content within the pop-up box*/
+	padding: 2%;/*side gaps of the content within the pop-up box*/
+	margin-top: 2%;/*top margin gap of the content within the pop-up box*/
+	margin-left: 24%;/*top margin gap of the content within the pop-up box*/
 	border-radius: 4px;/*corners of the pop-up box*/
 	transition: 0.6s ease;/*smooth fade effect*/
 }

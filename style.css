@@ -80,6 +80,7 @@
 	font-family: Century Gothic;/*font of the info box*/
 	background-color: orange;/*background color of the info box*/
 	text-align:center;/*alignment of the text of the info box*/
+	margin-top:10%;
 	margin-right:10%;/*right margin of the info box*/
 	margin-left: 10%;/*width of the info box*/
 	border-radius: 4px;/*corners of the info box*/
@@ -163,7 +164,7 @@
 	left: 0;/*adjusts left position of the pop-up box*/ 
 	position: fixed;/*fixed position of the pop-up box*/  
 	width: 100%;/*width of the pop-up box*/
-	height: 100%;/*height of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
 	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
 	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
 	cursor: pointer;/*changes cursor to pointer*/
@@ -329,7 +330,7 @@
 .popupBoxWrapper{
 	width: 100%; /*width of the wrapper*/	
 	height: 100%; /*height of the wrapper*/
-	margin-top:10%; /*top margin of the wrapper*/
+	margin:auto; /*top margin of the wrapper*/
 	text-align: center;/*aligns text to center of the wrapper*/
 	transition: 0.6s ease;/*smooth fade effect*/
 }
@@ -338,15 +339,17 @@
 .popupBoxContent{
 	width: 50%;
 	background-color: #FFF; /*background color of the content*/
-	padding: 5%;/*side gaps of the content within the pop-up box*/
+	padding: 2%;/*side gaps of the content within the pop-up box*/
 	margin-top: 5%;/*top margin gap of the content within the pop-up box*/
-	margin-left: 21%;/*top margin gap of the content within the pop-up box*/
+	margin-left: 24%;/*top margin gap of the content within the pop-up box*/
 	border-radius: 4px;/*corners of the pop-up box*/
 	transition: 0.6s ease;/*smooth fade effect*/
 }
 
 /*control the main areas*/
 main{
+	margin-top: 5%;
+	margin-bottom: 5%;
 	width:100%;/*width of the main area*/
 	float:left;/*position of the main area*/
 	border:0px solid black;/*border of the main area*/
@@ -357,7 +360,7 @@ main{
 .contain{
 		width:80%;/*width of the container*/
 		margin-right:10%;/*right margin of the container*/
-		margin-left: 20%;/*left margin of the container*/
+		margin-left: 10%;/*left margin of the container*/
 		margin-top: 5%;/*top margin of the container*/
 		margin-bottom: 5%;/*bottom margin of the container*/
 		float: left;/*moves to the left of the container*/
@@ -372,7 +375,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains first product picture*/
@@ -409,7 +412,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains second product picture*/
@@ -446,7 +449,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains third product picture*/
@@ -483,7 +486,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains fourth product picture*/
@@ -520,7 +523,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains fifth product picture*/
@@ -557,7 +560,7 @@ main{
 		width:278px;/*width of the product box*/
 		float: left;/*moves to the left of the prod box*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		margin: 10px;/*margin of the prod box*/
+		margin: 5%;/*margin of the prod box*/
 }
 		
 /* contains sixth product picture*/

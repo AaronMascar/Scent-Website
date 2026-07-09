@@ -3,14 +3,16 @@
 /*control the main areas*/
 #main_u1{
 	margin:0 auto;/*margin of the main area*/
-	margin-left:10%;/*margin of the main area*/
+	margin-left:9%;/*margin of the main area*/
 	margin-right:6.6%;/*margin of the main area*/
 	padding:0;/*space between of the main area*/
 }
 
 /*controls the nav box*/
 .home_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
+	margin-left:1%; /*left margin of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
 	background: #000;/*background of the home nav box*/
@@ -21,6 +23,9 @@
 
 /*controls the text within the nav box*/
 .home{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: orange;/*color of the text*/
@@ -37,7 +42,20 @@
 
 /*controls the nav box*/
 .men_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	background: #fff;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.men_li{
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
 	margin-left:1%; /*left margin of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
@@ -49,6 +67,9 @@
 
 /*controls the text within the nav box*/
 .men{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: orange;/*color of the text*/
@@ -65,7 +86,8 @@
 
 /*controls the nav box*/
 .women_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
 	margin-left:1%;/*left margin of the home nav box*/
@@ -77,6 +99,9 @@
 
 /*controls the text within the nav box*/
 .women{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: orange;/*color of the text*/
@@ -93,10 +118,10 @@
 
 /*controls the nav box*/
 .gifts_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
-	margin-left:1%;/*left margin of the home nav box*/
 	background: #fff;/*background of the home nav box*/
 	border:1px solid;/*border of the home nav box*/
 	text-align:center;/*aligns text to center of the home nav box*/
@@ -105,6 +130,9 @@
 
 /*controls the text within the nav box*/
 .gifts{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: #000;/*color of the text*/
@@ -121,7 +149,8 @@
 
 /*controls the nav box*/
 .sale_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
 	margin-left:1%;/*left margin of the home nav box*/
@@ -133,6 +162,9 @@
 
 /*controls the text within the nav box*/
 .sale{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: orange;/*color of the text*/
@@ -149,7 +181,8 @@
 
 /*controls the nav box*/
 .contact_li{
-	width:15%;/*width of the home nav box*/
+	margin:1%;/*width of the home nav box*/
+	width:14%;/*width of the home nav box*/
 	float:left;/*moves to the left of the home nav box*/
 	display:inline;/*block - one beneath / in-line - side by side*/
 	margin-left:1%;/*left margin of the home nav box*/
@@ -161,6 +194,9 @@
 
 /*controls the text within the nav box*/
 .contact{
+	margin:1%;/*width of the home nav box*/
+	font-weight: bold;/*Bold text font*/
+	padding: 2%;
 	font-size:auto;/*font of the text*/
 	text-decoration:none; /*remove the underline*/
 	color: orange;/*color of the text*/

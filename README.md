@@ -1,5 +1,5 @@
 # *DISCLAMER*
-# I do not clam to own "Scent-Website" trademark name and was create just for the sake of parady and I do not own the trademark "Scent-Website" and it's assets or claim that this is an official web store that sell products under "Scent-Website" and is purely just a work of fiction and my very own side project I had worked on as a joke.
+# I do not claim to own "Scent-Website" trademark name or it's properties and was create just for the sake of parady and I do not own the trademark "Scent-Website" and it's assets or claim that this is an official web store that sell products under "Scent-Website" and is purely just a work of fiction and my very own side project I had worked on as a joke.
 
 # Scent Website
 

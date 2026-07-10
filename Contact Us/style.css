@@ -139,6 +139,8 @@
 
 /*control the main areas*/
 main{
+	margin-top: 5%;
+	margin-bottom: 5%;
 	width:100%;/*width of the header*/
 	float:left;/*position of the main area*/
 	border:0px solid black;/*border of the main area*/
@@ -172,12 +174,14 @@ main{
 
 /* contains all sub-classes*/
 .contain{
-		margin-top: 5%;/*top margin of the contain*/
-		margin-right:2%;/*right margin of the contain*/
-		margin-left:12%;/*right margin of the contain*/
-		float: left;/*moves to the left of the contain*/
+		width:80%;/*width of the container*/
+		margin-right:10%;/*right margin of the container*/
+		margin-left: 10%;/*left margin of the container*/
+		margin-top: 5%;/*top margin of the container*/
+		margin-bottom: 5%;/*bottom margin of the container*/
+		float: left;/*moves to the left of the container*/
 		display: block;/*block - one beneath / in-line - side by side*/
-		border: 0px solid black;/*border of the contain*/
+		border: 0px solid black;/*border of the container*/
 		color: #000;/*color of the container's text*/
 		transition: 0.6s ease;/*smooth fade effect*/
 }

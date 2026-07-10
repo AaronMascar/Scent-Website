@@ -185,7 +185,7 @@ main{
 /* contains all sub-classes*/
 .container{
 	width:80%;/*width of the container*/
-	margin-right:2%;/*right margin of the container*/
+	margin-right:14%;/*right margin of the container*/
 	margin-left: 14%;/*left margin of the container*/
 	margin-bottom: 10%;/*bottom margin of the container*/
 	float: left;/*moves to the left of the container*/

@@ -6,6 +6,6 @@
 Wlcome to my page, I've created my very own "Scent-Website" website and hosted it here, and this is just side project that I'd worked on.
 
 
-Here is the to the "Scent-Website", thank you for visiting my Website -
+Here is the to the "Scent-Website", Thank you for visiting my Website, have a great day :) -
 
 https://aaronmascar.github.io/Scent-Website/

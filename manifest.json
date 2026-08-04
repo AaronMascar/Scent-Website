@@ -1,0 +1,25 @@
+{
+  "short_name": "SCENT",
+  "name": "SCENT PERFUMES",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/repository-name/",
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "fullscreen",
+  "theme_color": "#ffc400"
+  "description": "SCENT PERFUME WELCOME'S YOU !!!\n\nHere we have all the perfumes ranging from popular brands for Men, Women, etc.\n\nHave a look at all the options available just for you ;)",
+  "categories": [
+    "beauty",
+    "fashion",
+    "health &amp; fitness",
+    "lifestyle",
+    "shopping"
+}

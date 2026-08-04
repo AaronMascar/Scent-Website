@@ -33,7 +33,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/https://github.com/AaronMascar/Scent-Website/",
+  "start_url": "./index.html",
   "background_color": "#ffffff",
   "dir": "auto",
   "display": "fullscreen",

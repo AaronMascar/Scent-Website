@@ -1,180 +1,110 @@
 {
-  "id": "/",
+  "id": "./",
   "dir": "ltr",
   "lang": "en",
   "name": "SCENT PERFUMES",
-  "scope": "/",
-  "display": "standalone",
-  "start_url": "./index.html",
   "short_name": "SCENT",
+  "start_url": "./index.html",
+  "display": "standalone",
   "theme_color": "#FFC400",
-  "description": "SCENT PERFUME WELCOME'S YOU !!!\n\nHere we have all the perfumes ranging from popular brands for Men, Women, etc.\n\nHave a look at all the options available just for you ;)",
-  "orientation": "any",
   "background_color": "#FFFFFF",
+  "description": "SCENT PERFUME WELCOMES YOU! Here we have all the perfumes ranging from popular brands for Men, Women, etc. Have a look at all the options available just for you.",
+  "orientation": "any",
   "prefer_related_applications": false,
   "display_override": [
     "window-controls-overlay"
   ],
   "screenshots": [
     {
-      "src": "assets/screen.png"
-	  "sizes": "399x512",
+      "src": "assets/screen.png",
+      "sizes": "399x512",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "assets/screen1.png"
-	  "sizes": "496x614",
+      "src": "assets/screen1.png",
+      "sizes": "496x614",
       "type": "image/png",
       "form_factor": "wide"
-
     },
     {
-      "src": "assets/screen2.png"
-	  "sizes": "359x518",
+      "src": "assets/screen2.png",
+      "sizes": "359x518",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen3.png",
+      "sizes": "648x607",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen4.png",
+      "sizes": "401x180",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen5.png",
+      "sizes": "525x282",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen6.png",
+      "sizes": "634x390",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen7.png",
+      "sizes": "304x305",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen8.png",
+      "sizes": "333x337",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen9.png",
+      "sizes": "328x333",
       "type": "image/png",
       "form_factor": "wide"
     }
-    {
-      "src": "assets/screen3.png"
-	  "sizes": "648x607",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "assets/screen4.png"
-	  "sizes": "401x180",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "assets/screen5.png"
-	  "sizes": "525x282",
-      "type": "image/png",
-      "form_factor": "wide"
-    }
-    {
-      "src": "assets/screen6.png"
-	  "sizes": "634x390",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "assets/screen7.png"
-	  "sizes": "304x305",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "assets/screen8.png"
-	  "sizes": "333x337",
-      "type": "image/png",
-      "form_factor": "wide"
-    }
-    {
-      "src": "assets/screen9.png"
-	  "sizes": "328x333",
-      "type": "image/png",
-      "form_factor": "wide"
-    }
-  ],
-  "features": [
-    "Cross Platform",
-    "low-latency inking",
-    "fast",
-    "useful AI"
   ],
   "icons": [
-    {
-      "src": "icons/icon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-    {
-      "src": "icons/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-    {
-      "src": "icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+	{
+    "src": "icons/icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "any maskable"
+	},
+	{
+    "src": "icons/icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+	}
   ],
   "categories": [
     "beauty",
     "fashion",
-    "health &amp; fitness",
     "lifestyle",
     "shopping"
   ],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
-  "edge_side_panel": {},
   "shortcuts": [
     {
       "name": "Start Live Session",
       "short_name": "Start Live",
-      "description": "Jump direction into starting or joining a live session",
-      "url": "/?startLive",
+      "description": "Jump directly into starting or joining a live session",
+      "url": "./index.html",
       "icons": [
         {
           "src": "icons/icon-192x192.png",

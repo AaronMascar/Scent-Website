@@ -146,7 +146,7 @@
       "url": "/?startLive",
       "icons": [
         {
-          "src": "/assets/icon/icon-192x192.png",
+          "src": "/assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]

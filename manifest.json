@@ -5,7 +5,7 @@
   "name": "SCENT PERFUMES",
   "scope": "/",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "./index.html",
   "short_name": "SCENT",
   "theme_color": "#FFC400",
   "description": "SCENT PERFUME WELCOME'S YOU !!!\n\nHere we have all the perfumes ranging from popular brands for Men, Women, etc.\n\nHave a look at all the options available just for you ;)",
@@ -17,34 +17,65 @@
   ],
   "screenshots": [
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen.png"
+      "src": "assets/screen.png"
+	  "sizes": "399x512",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen1.png"
+      "src": "assets/screen1.png"
+	  "sizes": "496x614",
+      "type": "image/png",
+      "form_factor": "wide"
+
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen2.png"
+      "src": "assets/screen2.png"
+	  "sizes": "359x518",
+      "type": "image/png",
+      "form_factor": "wide"
     }
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen3.png"
+      "src": "assets/screen3.png"
+	  "sizes": "648x607",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen4.png"
+      "src": "assets/screen4.png"
+	  "sizes": "401x180",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen5.png"
+      "src": "assets/screen5.png"
+	  "sizes": "525x282",
+      "type": "image/png",
+      "form_factor": "wide"
     }
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen6.png"
+      "src": "assets/screen6.png"
+	  "sizes": "634x390",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen7.png"
+      "src": "assets/screen7.png"
+	  "sizes": "304x305",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen8.png"
+      "src": "assets/screen8.png"
+	  "sizes": "333x337",
+      "type": "image/png",
+      "form_factor": "wide"
     }
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/screen9.png"
+      "src": "assets/screen9.png"
+	  "sizes": "328x333",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ],
   "features": [
@@ -55,73 +86,73 @@
   ],
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-48x48.png",
+      "src": "icons/icon-48x48.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-48x48.png",
+      "src": "icons/icon-48x48.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-72x72.png",
+      "src": "icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-72x72.png",
+      "src": "icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "maskable"
     }
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-96x96.png",
+      "src": "icons/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-96x96.png",
+      "src": "icons/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-144x144.png",
+      "src": "icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-144x144.png",
+      "src": "icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "maskable"
     }
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-192x192.png",
+      "src": "icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-192x192.png",
+      "src": "icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-512x512.png",
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-512x512.png",
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -146,7 +177,7 @@
       "url": "/?startLive",
       "icons": [
         {
-          "src": "https://raw.githubusercontent.com/AaronMascar/Scent-Website/refs/heads/main/assets/icons/icon-192x192.png",
+          "src": "icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]

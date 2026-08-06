@@ -121,7 +121,7 @@
       "url": "./Men/Men.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -133,7 +133,7 @@
       "url": "./Women/Women.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -145,7 +145,7 @@
       "url": "./Gifts/Gifts.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -157,7 +157,7 @@
       "url": "./Sale/Sale.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -169,7 +169,7 @@
       "url": "./Contact%20Us/Contact%20Us.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]

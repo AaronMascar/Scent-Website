@@ -118,10 +118,10 @@
       "name": "Men's Perfumes",
       "short_name": "Men",
       "description": "Explore popular perfumes for Men",
-      "url": "./Men/Men.html",
+      "url": "Men/Men.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -130,10 +130,10 @@
       "name": "Women's Perfumes",
       "short_name": "Women",
       "description": "Explore popular perfumes for Women",
-      "url": "./Women/Women.html",
+      "url": "Women/Women.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -142,10 +142,10 @@
       "name": "Gift Bags & Sets",
       "short_name": "Gifts",
       "description": "Browse perfume gift bags and offers",
-      "url": "./Gifts/Gifts.html",
+      "url": "Gifts/Gifts.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -154,10 +154,10 @@
       "name": "Special Offers & Sale",
       "short_name": "Sale",
       "description": "View discounted perfumes and sales",
-      "url": "./Sale/Sale.html",
+      "url": "Sale/Sale.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -166,10 +166,10 @@
       "name": "Contact Us",
       "short_name": "Contact",
       "description": "Get in touch with SCENT Perfumes",
-      "url": "./Contact%20Us/Contact%20Us.html",
+      "url": "Contact%20Us/Contact%20Us.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
+          "src": "assets/icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]

@@ -166,7 +166,7 @@
       "name": "Contact Us",
       "short_name": "Contact",
       "description": "Get in touch with SCENT Perfumes",
-      "url": "./Contact Us/Contact Us.html",
+      "url": "./Contact%20Us/Contact%20Us.html",
       "icons": [
         {
           "src": "./icons/icon-192x192.png",
